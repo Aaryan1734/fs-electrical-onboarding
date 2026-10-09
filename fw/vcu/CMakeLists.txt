@@ -4,6 +4,7 @@ cmake_policy(VERSION 3.19...3.22)
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 set(MBED_APP_JSON_PATH mbed_app.json5)
 
+
 set(CUSTOM_TARGETS_JSON_PATH ../custom_targets/custom_targets.json5)
 set(CUSTOM_UPLOAD_CFG_PATH ../custom_targets/UploadMethods.cmake)
 

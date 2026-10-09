@@ -1,6 +1,7 @@
 # Copyright (c) 2026 ARM Limited. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
-
+cmake_minimum_required(VERSION 3.19)
+cmake_policy(SET CMP0076 NEW)
 add_library(mbed-vehicle-control-unit INTERFACE)
 
 target_sources(mbed-vehicle-control-unit
